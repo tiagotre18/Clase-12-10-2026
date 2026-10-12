@@ -71,6 +71,14 @@
     </visual>
 </link>
 
+<joint name="1_joint" type="revolute">
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    <parent link="0_link"/>
+    <child link="1_link"/>
+    <axis xyz="0.0 0.0 1.0"/>
+    <limit lower="-3.14" upper="3.14" effort="1.0" velocity="10.0"/>
+</joint>
+
 <!-- Información de articulaciones--> 
 
 </robot>   
