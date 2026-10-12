@@ -1,0 +1,77 @@
+<!--Unified Robot Description Format-->
+
+<robot name="robot_inicial">
+<!-- Información de Eslabónes -->
+
+<link name="0_link">
+    <visual>
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <geometry>
+            <box size="0.01 0.01 0.01"/>
+        </geometry>
+        <material name="negro">
+            <color rgba="0.0 0.0 0.0 1.0"/>
+        </material>
+    </visual>
+</link>
+
+<!-- Información de articulaciones--> 
+
+<link name="1_link">
+    <visual>
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <geometry>
+            <box size="0.01 0.01 0.01"/>
+        </geometry>
+        <material name="negro">
+            <color rgba="0.0 0.0 0.0 1.0"/>
+        </material>
+    </visual>
+</link>
+
+<!-- Información de articulaciones--> 
+
+<link name="2_link">
+    <visual>
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <geometry>
+            <box size="0.01 0.01 0.01"/>
+        </geometry>
+        <material name="negro">
+            <color rgba="0.0 0.0 0.0 1.0"/>
+        </material>
+    </visual>
+</link>
+
+<!-- Información de articulaciones--> 
+
+<link name="3_link">
+    <visual>
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <geometry>
+            <box size="0.01 0.01 0.01"/>
+        </geometry>
+        <material name="negro">
+            <color rgba="0.0 0.0 0.0 1.0"/>
+        </material>
+    </visual>
+</link>
+
+<!-- Información de articulaciones--> 
+
+<link name="p_link">
+    <visual>
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        <geometry>
+            <box size="0.01 0.01 0.01"/>
+        </geometry>
+        <material name="negro">
+            <color rgba="0.0 0.0 0.0 1.0"/>
+        </material>
+    </visual>
+</link>
+
+<!-- Información de articulaciones--> 
+
+</robot>   
+
